@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>404</title>
+    <link rel="stylesheet" href="../../static/404/style.css" th:href="@{/404/style.css}">
+</head>
+<body>
+    <div class="mars"></div>
+    <img src="../../static/404/404.svg" th:src="@{/404/404.svg}" class="logo-404">
+    <img src="../../static/404/meteor.svg" th:src="@{/404/meteor.svg}" class="meteor">
+    <p class="title">Oh No!!</p>
+    <p class="subtitle">
+        页面未找到~404错误<br>你请求了一个不再在这里的页面。<br> 快点联系管理员！！！
+    </p>
+    <div align="center">
+        <a class="btn-back" href="/" target="_blank">返回首页</a>
+    </div>
+    <img src="../../static/404/astronaut.svg" th:src="@{/404/astronaut.svg}" class="astronaut">
+    <img src="../../static/404/spaceship.svg" th:src="@{/404/spaceship.svg}" class="spaceship">
+<!--    <div>
+        <div th:utext="'&lt;!&#45;&#45;'" th:remove="tag"></div>
+        <div th:utext="'Failed Request URL : ' + ${url}" th:remove="tag"></div>
+        <div th:utext="'Exception message : ' + ${exception.message}" th:remove="tag"></div>
+        <ul th:remove="tag">
+            <li th:each="st : ${exception.stackTrace}" th:remove="tag"><span th:utext="${st}" th:remove="tag"></span></li>
+        </ul>
+        <div th:utext="'&#45;&#45;&gt;'" th:remove="tag"></div>
+    </div>-->
+
+</body>
+
+</html>

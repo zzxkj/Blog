@@ -1,0 +1,9 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  servlet:
+    content-type: text/html
+  profiles:
+    active: dev
+
+comment.avatar: /images/girl.jpg
